@@ -4,7 +4,7 @@ public class Azucar extends Articulo{
 	
 	private static Azucar azucar = null;
 
-	public Azucar(double precio){
+	private Azucar(double precio){
 		super("Azucar",precio);
 	}
 

@@ -4,7 +4,7 @@ public class Harina extends Articulo{
 
 	private static Harina harina = null;
 
-	public Harina(double precio){
+	private Harina(double precio){
 		super("Harina",precio);
 	}
 
